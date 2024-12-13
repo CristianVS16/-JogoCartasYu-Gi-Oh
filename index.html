@@ -18,8 +18,6 @@
             <source src="src/assets/video/yugi.mp4" type="video/mp4"/>
         </video>
 
-
-
     </div>
     <div class="container">
         <div class="container__left
@@ -37,11 +35,31 @@
         </div>
         <div class="container__right">
             <div class="card-box__container">
-                <div class="card-box framed" id="computercards"></div>
+                <div class="card-box framed" id="computer-cards"></div>
 
-            <div class="card-versus"></div>
+            <div class="card-versus">
+                <div class="versus-top">
+                    <div class="card-infield">
+                        <img  id="player-field-card" 
+                        height="180px" 
+                        width="125px">
+                    </div>
+                    <img height="100px"  src="src/assets/icons/millenium2.png">
+                   
+                    <div class="card-infield">
+                        <img  id="computer-field-card" 
+                        height="180px" 
+                        width="125px">
+                    </div>
+                </div>
+                <div class="versus-bottom">
+                    <button id="nex-duel" class="rpgui-button" 
+                    onclick="RESETdUEL()">GANHOU</button>
+                </div>
 
-            <div class="card-box framed" id="player-card"></div>
+            </div>
+            
+            <div class="card-box framed" id="player-cardS"></div>
 
             </div>
             
